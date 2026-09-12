@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>排错 on 三无亦拾吾</title>
+		<link>https://blog.icecome.com/tags/%E6%8E%92%E9%94%99/</link>
+		<description>Recent content in 排错 on 三无亦拾吾</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://blog.icecome.com/tags/%E6%8E%92%E9%94%99/rss.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>飞牛 OS-web 端更新失败的解决方法</title>
+				<link>https://blog.icecome.com/posts/tech/20250811-fnos/</link>
+				<pubDate>Mon, 11 Aug 2025 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20250811-fnos/</guid>
+				<description>&lt;h2 id=&#34;前情&#34;&gt;前情&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;飞牛 OS&lt;/strong&gt; 是部署在 PVE 上的一个虚拟机。前一段时间，当系统版本为 0.9.9 时，就出现了 Web 端更新失败的问题，尝试查询多种方法均无法解决。官方论坛上针对同一问题给出的方案也未能奏效。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>SSH 禁止密码登录</title>
+				<link>https://blog.icecome.com/posts/tech/20250530-ssh/</link>
+				<pubDate>Fri, 30 May 2025 16:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20250530-ssh/</guid>
+				<description>&lt;h2 id=&#34;ubuntu-新装后配置-ssh-禁止密码登录失效&#34;&gt;ubuntu 新装后配置 SSH 禁止密码登录失效&lt;/h2&gt;&#xA;&lt;p&gt;今日将云服务器内的系统重装，在重新配置 SSH 配置时，已设置禁止密码登录，但未生效，&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@ubuntu:~# cat /etc/ssh/sshd_config | grep PasswordAuthentication&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PasswordAuthentication no   &lt;span style=&#34;color:#75715e&#34;&gt;# 关闭密码登录&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;通过搜索发现，仍存在另一处配置影响，&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Linux 下外接键盘的功能键 F1-F12 映射模式设定修复</title>
+				<link>https://blog.icecome.com/posts/tech/20241009-linux/</link>
+				<pubDate>Wed, 09 Oct 2024 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20241009-linux/</guid>
+				<description>&lt;h2 id=&#34;前情&#34;&gt;前情&lt;/h2&gt;&#xA;&lt;p&gt;最近将办公用的 &lt;em&gt;ThinkPad X1 Carbon 6th&lt;/em&gt; 系统重装为了 &lt;strong&gt;Linux&lt;/strong&gt;，但是在使用时发现，键盘的功能键区 &lt;strong&gt;(F1~F12)&lt;/strong&gt; 的默认行为是多媒体功能，即控制屏幕亮度、音量等功能。&lt;br&gt;&#xA;当我尝试按 &lt;strong&gt;F2&lt;/strong&gt; ，使用重命名时，结果却是控制了屏幕亮度。在正常情况下，这些功能键应该是要配合 &lt;strong&gt;Fn&lt;/strong&gt; 键一起才能触发的。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>2024.8.25-关于 Alist 服务 413 问题的调整</title>
+				<link>https://blog.icecome.com/posts/tech/20240825-alist/</link>
+				<pubDate>Sun, 25 Aug 2024 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20240825-alist/</guid>
+				<description>&lt;h2 id=&#34;天气&#34;&gt;&lt;span style=&#34;font-family: &#39;KaiTi&#39;, serif;&#34;&gt;天气&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;p&gt;今日阴，有小雨。&lt;/br&gt;&#xA;周末上班大概是最让人痛苦的。&lt;/br&gt;&#xA;幸好其实并无任何紧要工作需完成，去了办公室，不过做着自己的闲事，打发时间而已。&lt;/br&gt;&#xA;中午，淅沥淅沥的小雨下了起来。窗边欣赏着雨景，心境都舒缓了几分。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>迫于 Gridea 无法同步</title>
+				<link>https://blog.icecome.com/posts/life/20220818-gridea-sync/</link>
+				<pubDate>Thu, 18 Aug 2022 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/life/20220818-gridea-sync/</guid>
+				<description>&lt;p&gt;继上次发现 &lt;strong&gt;Gridea&lt;/strong&gt; 更新版本发现能同步后，中间就更新了一篇内容。由于过于懒惰，又是好长时间没有更新。&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xA;&lt;p&gt;8 月的某日，本想着有些新的知识学到了，总要记录总结一下，谁知发现又无法同步了。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

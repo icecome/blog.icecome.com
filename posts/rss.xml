@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on 三无亦拾吾</title>
+		<link>https://blog.icecome.com/posts/</link>
+		<description>Recent content in Posts on 三无亦拾吾</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="https://blog.icecome.com/posts/rss.xml" rel="self" type="application/rss+xml" />
+	</channel>
+</rss>
