@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Docker on 三无亦拾吾</title>
+		<link>https://blog.icecome.com/tags/docker/</link>
+		<description>Recent content in Docker on 三无亦拾吾</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://blog.icecome.com/tags/docker/rss.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>在飞牛 NAS 中安装部署 Docker 版 Obsidian</title>
+				<link>https://blog.icecome.com/posts/tech/20251101-obsidian/</link>
+				<pubDate>Sat, 01 Nov 2025 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20251101-obsidian/</guid>
+				<description>&lt;p&gt;由于博客是静态博客，每次都是打开 VSCode 编辑文章后，推送到线上。所以一直在想，有没有什么方法，可以达到类似带后台的博客平台一样，写完文章后点击发布即可完成这一过程。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>记录 ttrss 迁移</title>
+				<link>https://blog.icecome.com/posts/tech/20250530-ttrss/</link>
+				<pubDate>Fri, 30 May 2025 15:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20250530-ttrss/</guid>
+				<description>&lt;h2 id=&#34;awesome-ttrss-迁移备份恢复&#34;&gt;Awesome-TTRSS 迁移/备份恢复&lt;/h2&gt;&#xA;&lt;p&gt;云服务器重装系统后，原有的 TTRSS 服务也需要重新配置，故在网上查找到迁移/备份的教程，以备使用。&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xA;&lt;h2 id=&#34;查询原始服务器-docker-状态确保在-root-状态下操作&#34;&gt;查询原始服务器 docker 状态（确保在 root 状态下操作）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;查询数据库容器-id&#34;&gt;查询数据库容器 ID&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo docker ps&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CONTAINER    ID    IMAGE    COMMAND    CREATED    STATUS    PORTS    NAMES&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;938354bd6bd6    wangqiru/ttrss:latest    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sh /docker-entrypoi…&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;39&lt;/span&gt; hours ago    Up    &lt;span style=&#34;color:#ae81ff&#34;&gt;39&lt;/span&gt; hours &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;unhealthy&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;    0.0.0.0:18280-&amp;gt;80/tcp, :::18280-&amp;gt;80/tcp    ttrss&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;6c4b2d760a18    postgres:16-alpine    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docker-entrypoint.s…&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;39&lt;/span&gt; hours ago    Up &lt;span style=&#34;color:#ae81ff&#34;&gt;39&lt;/span&gt; hours &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;healthy&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;    ttrss_database.postgres_1&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;从查询结果得知，数据库 postgres 的 ID 为 6c4b2d760a18,&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>2024.8.25-关于 Alist 服务 413 问题的调整</title>
+				<link>https://blog.icecome.com/posts/tech/20240825-alist/</link>
+				<pubDate>Sun, 25 Aug 2024 00:00:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20240825-alist/</guid>
+				<description>&lt;h2 id=&#34;天气&#34;&gt;&lt;span style=&#34;font-family: &#39;KaiTi&#39;, serif;&#34;&gt;天气&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;p&gt;今日阴，有小雨。&lt;/br&gt;&#xA;周末上班大概是最让人痛苦的。&lt;/br&gt;&#xA;幸好其实并无任何紧要工作需完成，去了办公室，不过做着自己的闲事，打发时间而已。&lt;/br&gt;&#xA;中午，淅沥淅沥的小雨下了起来。窗边欣赏着雨景，心境都舒缓了几分。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
