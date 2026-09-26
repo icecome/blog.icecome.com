@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hugo on 三无亦拾吾</title>
+		<link>https://blog.icecome.com/tags/hugo/</link>
+		<description>Recent content in Hugo on 三无亦拾吾</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 07 Jul 2026 13:58:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://blog.icecome.com/tags/hugo/rss.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>基于 Cloudflare Worker 的 Github CMS后端管理系统</title>
+				<link>https://blog.icecome.com/posts/tech/20260707-cms/</link>
+				<pubDate>Tue, 07 Jul 2026 13:58:00 +0800</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20260707-cms/</guid>
+				<description>&lt;p&gt;所有使用静态博客的写作者，大概都曾被同一个流程困扰过：每次想更新文章，都得在本地打开编辑器、修改 Markdown 文件、git commit、git push。尽管 VS Code 已经将这套流程简化到了极致，只需动动手指点几下按钮，但整套操作走下来，依然相当繁琐。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>从零搭建博客留言系统，一个不依赖第三方评论方案的实现</title>
+				<link>https://blog.icecome.com/posts/tech/20260624-liuyan/</link>
+				<pubDate>Wed, 24 Jun 2026 05:10:15 +0000</pubDate>
+				<guid>https://blog.icecome.com/posts/tech/20260624-liuyan/</guid>
+				<description>&lt;p&gt;博客搭好之后，一直没有配置评论系统。主要是本博客毕竟是一个自娱自乐的地方，没有干货内容，没有加入聚合平台，几乎没有流量，所以也没有必要配置评论系统。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
