@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>友情链接 · 三无亦拾吾</title>
+    <link>https://blog.icecome.com/links/</link>
+    <description>这里展示与本站有友好合作关系的网站，欢迎各位站长朋友交换友链。</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <atom:link href="https://blog.icecome.com/links/rss.xml" rel="self" type="application/rss&#43;xml" />
+  </channel>
+</rss>
