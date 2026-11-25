@@ -1,0 +1,34 @@
+## 静态资源缓存策略
+## 用于配置 HTTP 缓存头，提高重复访问速度
+
+# 图片资源 - 缓存 1 年
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS 文件 - 缓存 1 年（带哈希的文件名）
+/css/*.min.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# JS 文件 - 缓存 1 年（带哈希的文件名）
+/js/*.min.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# 字体文件 - 缓存 1 年
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML 文件 - 不缓存或缓存时间短
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 主文档 - 不缓存
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+#  manifest 和 service worker - 不缓存
+/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
